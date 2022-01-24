@@ -8,6 +8,14 @@ pre-commit install
 pre-commit autoupdate
 ```
 
+## TODO:
+
+* flake8 rule to be ignore
+* pylint rules to be ignored
+* mypy rules to be ignored
+* black & isort config
+* create requirements file
+* add default hooks for large file, merge conflict and no commit branch
 
 __Reference:__
 
