@@ -59,3 +59,14 @@ repos:
     hooks:
     - id: autoflake8
       args: ["--remove-unused-variables", "--recursive", "--exclude=__init__.py"]
+  - repo: https://github.com/kynan/nbstripout
+    rev: 0.5.0
+    hooks:
+    - id: nbstripout
+  - repo: https://github.com/nbQA-dev/nbQA
+    rev: 1.2.3
+    hooks:
+      - id: nbqa-black
+      - id: nbqa-pyupgrade
+        args: [--py36-plus]
+      - id: nbqa-isort
