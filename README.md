@@ -9,7 +9,8 @@ pre-commit autoupdate
 ```
 
 
-Reference:
+__Reference:__
+
 * https://github.com/asottile/pyupgrade
 * https://commitizen-tools.github.io/commitizen/
 * https://speakerdeck.com/leew/commitizen-tools-what-can-we-gain-from-crafting-a-git-message-convention-at-taipey-dot-py?slide=37
