@@ -3,7 +3,7 @@
 
 ```bash
 touch .pre-commit-config.yaml
-pip install pre-commit pyupgrade pyupgrade safety black flake8 dead pylint autopep8
+pip install pre-commit pyupgrade pyupgrade safety black flake8 dead pylint autopep8 autoflake8 isort
 pre-commit install
 pre-commit autoupdate
 ```
